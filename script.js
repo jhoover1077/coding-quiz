@@ -195,3 +195,4 @@
   
   const deadline = new Date(Date.parse(new Date()) + 10 * 60 * 1000);
   initializeClock('clockdiv', deadline);  
+  
