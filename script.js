@@ -107,25 +107,25 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: "Who invented JavaScript?",
+        question: "What is the HTML tag under which one can write the JavaScript code?",
         answers: {
-          a: "Douglas Crockford",
-          b: "Sheryl Sandberg",
-          c: "Brendan Eich"
+          a: "javascript",
+          b: "scripted",
+          c: "script"
         },
         correctAnswer: "c"
       },
       {
-        question: "Which one of these is a JavaScript package manager?",
+        question: "Which of the following is not a reserved word in JavaScript?",
         answers: {
-          a: "Node.js",
-          b: "TypeScript",
-          c: "npm"
+          a: "interface",
+          b: "throws",
+          c: "program"
         },
         correctAnswer: "c"
       },
       {
-        question: "Which tool can you use to ensure code quality?",
+        question: "Which tool is helpful to clean up javascript",
         answers: {
           a: "Angular",
           b: "jQuery",
@@ -192,7 +192,7 @@
     updateClock();
     const timeinterval = setInterval(updateClock, 1000);
   }
-  
+
   const deadline = new Date(Date.parse(new Date()) + 10 * 60 * 1000);
   initializeClock('clockdiv', deadline);  
   
